@@ -1,10 +1,11 @@
 # 基于linux系统的汇编语言程序设计
-![cover.jpg](cover.jpg)
+[![cover.jpg](cover.jpg)]
 
-### Chapter1 认识汇编语言
+### Chapter1 [认识汇编语言](Part1汇编语言程序设计基础/chapter1认识汇编语言/README.md)
 ```asm
 gcc -S hello.c
 ```
+
 #### 一、指令
 伪指令:CPU不产生动作的
 
@@ -41,9 +42,9 @@ _start:     #声明开始位置
     movl $0, %ebx   #将返回码0送到寄存器ebx
     int $0x80       #执行1号系统功能调用,返回操作系统,返回码是0
 ```
-![chapter1认识汇编语言](chapter1认识汇编语言/1.png)
+![chapter1认识汇编语言](Part1汇编语言程序设计基础/chapter1认识汇编语言/ex1输出helloworld/1.png)
 
-## 第二部分 IA-32处理器的基本指令系统
+## 第二部分 [IA-32处理器的基本指令系统](Part1汇编语言程序设计基础/chapter2IA-32硬件平台/README.md)
 80x86基本指令集7个
 > 常用符号
 > - src：源操作数(source)
