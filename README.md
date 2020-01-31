@@ -1,5 +1,5 @@
 # 基于linux系统的汇编语言程序设计
-[![cover.jpg](cover.jpg)]
+[cover.jpg](cover.jpg)
 
 ### Chapter1 [认识汇编语言](Part1汇编语言程序设计基础/chapter1认识汇编语言/README.md)
 ```asm
